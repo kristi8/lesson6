@@ -136,3 +136,9 @@ height: 100%;
 	from{bottom: 45%;}
 	to{ bottom: 70%; }
 }
+.tree{
+	position: absolute;
+	width: 150px;
+	right: 300px;
+	bottom: 30%;
+}
