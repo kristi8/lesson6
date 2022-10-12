@@ -1,0 +1,56 @@
+/*body{
+width: 100%;
+height: 100%;
+}*/
+
+.animation{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.background-img{
+	width: 100%;
+	height: 600px;
+
+}
+.car {
+	position: absolute;
+	width: 100px;
+/*	left: 0;*/
+	bottom: 3%;
+	animation: car 20s infinite;
+
+}
+@keyframes car {
+	from{left: 0;}
+	to{left: 100%;}
+
+}
+.sun{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 50px;
+	left: 50px;
+	animation: sun 25s infinite;
+}
+@keyframes sun{
+	0%{ transform: rotate(45deg);}
+	25%{ transform: rotate(90deg); }
+	50%{transform: rotate(180deg);}
+	75%{transform: rotate(360deg);}
+	100%{transform: rotate(45deg);}
+}
+
+.bird {
+	position: absolute;
+	top:0;
+	left: 300px;
+	
+/*	animation: bird 30s infinite;	
+	}
+	@keyframes bird {
+	0% { left: 300px; }
+ 	100% {left: 1000px;  }
+ }*/
+ 
