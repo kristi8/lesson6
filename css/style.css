@@ -16,7 +16,7 @@ height: 100%;
 .car {
 	position: absolute;
 	width: 100px;
-/*	left: 0;*/
+	
 	bottom: 3%;
 	animation: car 20s infinite;
 
@@ -46,11 +46,32 @@ height: 100%;
 	position: absolute;
 	top:0;
 	left: 300px;
-	
-/*	animation: bird 30s infinite;	
+	animation: bird 30s infinite;	
 	}
+
 	@keyframes bird {
 	0% { left: 300px; }
  	100% {left: 1000px;  }
- }*/
+ }
+ /*.bird: hover{
+ 	transform: ;
+ } */
+ 
+ .image{
+ 	width: 100px;
+ 	position: absolute;
+ 
+ 	bottom: 14%;
+ 	animation: image 20s  infinite;
+ }
+ @keyframes image {
+ 	from{right: 300px;}
+ 	to{right: 100%;}
+ }
+ .image2{
+ 	position: absolute;
+ 	width: 100px;
+ 	right: 300px;
+ 	bottom: 35%;
+ }
  
